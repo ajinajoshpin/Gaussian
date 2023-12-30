@@ -9,10 +9,14 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 
 ## Algorithm
 ```
-1. First,we want to import numpy,then import sys,assume a variable.
-2.For gaussian elimination method, we want to make 2nd and 3rd column zero.
-3.For that we want to make a range accorting to our program output.
-4.Then print the program with correct form then the output will display.
+step1:
+ First,we want to import numpy,then import sys,assume a variable.
+ step 2:
+For gaussian elimination method, we want to make 2nd and 3rd column zero.
+ step 3:
+For that we want to make a range accorting to our program output.
+ step 4:
+Then print the program with correct form then the output will display.
 ```
 
 ## Program:
@@ -45,13 +49,11 @@ for i in range(n-2,-1,-1):
 for i in range(n):
     print('X%d = %0.2f' %(i,x[i]),end=' ')
 
-
 ```
 
 ## Output:
-![gaussian elimination]()
+![image](https://github.com/ajinajoshpin/Gaussian/assets/148514578/3d74f243-af68-4213-90ac-67b795f50596)
 
-![DIVYA GAUSSIAN](https://user-images.githubusercontent.com/119393424/216230590-d43bdefe-5e4f-41e9-a761-5b049e626a65.png)
 
 
 ## Result:
